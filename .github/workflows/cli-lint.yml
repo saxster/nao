@@ -4,10 +4,6 @@ on:
     push:
         paths:
             - 'cli/**'
-    pull_request:
-        paths:
-            - 'cli/**'
-
 jobs:
     ruff:
         name: Ruff Checks
