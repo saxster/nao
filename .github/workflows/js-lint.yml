@@ -7,13 +7,6 @@ on:
             - 'package.json'
             - 'package-lock.json'
             - '.npmrc'
-    pull_request:
-        paths:
-            - 'apps/**'
-            - 'package.json'
-            - 'package-lock.json'
-            - '.npmrc'
-
 jobs:
     lint:
         name: ESLint, Prettier and Database Migration Checks
