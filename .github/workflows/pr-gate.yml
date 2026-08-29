@@ -1,9 +1,8 @@
 name: PR Gate
 
 on:
-    pull_request_target:
-        types: [opened]
-
+  push:
+    branches: [main]
 jobs:
     check-contributor:
         runs-on: ubuntu-latest
